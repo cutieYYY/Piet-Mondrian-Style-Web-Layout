@@ -1,0 +1,97 @@
+html {
+    background-color: rgb(246, 249, 249);
+}
+
+* {
+    box-sizing: border-box;
+    border: none;
+    margin: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.head {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+.main {
+  width: 30vw;
+  height: 64vh;
+  margin: 50px auto;
+  display:flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 8px 0px #888888;;
+}
+.main .sec1, .main .sec3 {
+    background-color: transparent;
+    font-size: 30px;
+}
+.main .sec1{
+    height: 70%;
+    display:flex;
+    flex-direction: row;
+}
+.sec1 .sec2{
+    display:flex;
+    flex-direction: column;
+    background-color: #fff; 
+    width: 20%;
+      
+}
+
+.sec2 .one{
+    height: 45%;
+    border-bottom: #000 10px solid;
+}
+.sec2 .two{
+    height: 55%;
+    border-top: #000 10px solid;
+}
+.sec1 .three {
+    background-color: rgb(205, 49, 40);
+    width: 80%;
+    border-left: #000 10px solid;
+}
+.main .sec3 {
+    border-top: #000 10px solid;
+    display: flex;
+    flex-direction: row;
+    color:#fff;
+    height: 30%;
+}
+.sec3 .four {
+    width: 20%;
+    background-color: rgb(37, 82, 186);
+    
+}
+.sec3 .five{
+    width: 70%;
+    background-color: #fff;
+    border-right: #000 10px solid;
+    border-left: #000 10px solid;
+}
+.sec3 .sec4{
+    width: 10%;
+}
+
+.sec4 .six {
+    height: 40%;
+    background-color: #fff;
+    
+}
+.sec4 .seven {
+    height: 60%;
+    background-color: rgb(242, 213, 97);
+    border-top: #000 15px solid; ;
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        background-color: antiquewhite;
+    }
+    .main {
+      width: 40vw;
+      height: 40vh;
+    }
+  }
